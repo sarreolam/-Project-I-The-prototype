@@ -1,6 +1,12 @@
 body{
   margin: 0;
   height: 1000px;
+
+}
+
+.cuerpo{
+  background-color: #F0F0F0;
+
 }
 .MiNavbar{
   padding: 10px;
