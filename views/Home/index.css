@@ -1,11 +1,17 @@
 body{
-  margin: 0;
+  /* margin: 0; */
   height: 1000px;
 }
+
+
 .MiNavbar{
-  padding: 10px;
-  background-color: #3C486B
+  background-color: #3C486B;
+
+
 }
-.MiNavbar a {
-  color: white;
+
+
+.top{
+  /* margin-top: rem; */
+  background-color: blue;
 }
