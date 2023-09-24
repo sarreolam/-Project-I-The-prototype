@@ -23,5 +23,42 @@
       <a class="flex-sm-fill text-sm-center nav-link" href="../About Us/aboutUs.html">About us</a>
     </nav>
   </div>
+
+  <div>
+    <h1 style="text-align: center;">Schedule a meeting</h1>
+    <p style="text-align: center;">Schedule a meeting with one of our specialists!</p>
+    <img style="position:relative; margin-left: 280px; width:900px;" src="/images/meeting.png"/>
+    <p>next page...👇</p>
+    <img style="position:relative; margin-left: 80px;"src="/images/zoomAPI.jpg"/>
+  </div>
+  
+  <label id="notas" for="notas">Write your notes here👇:</label>
+    <br>
+    <textarea id="notas" name="notas" rows="5" cols="130"></textarea>
+
+    <br><br>
+    <button id="button" type="button" onclick="guardarNotas()">Save notes!</button>
+
+    <script>
+        function guardarNotas() {
+            var notas = document.getElementById("notas").value;
+            // Aquí puedes realizar alguna acción con las notas, como guardarlas en una base de datos o mostrarlas en la página.
+            alert("Your notes have been saved\n" + notas);
+        }
+    </script>
+
+<footer id="footer">
+  <div class="inner">
+    <h2>Etiam veroeros lorem</h2>
+    <p>Pellentesque eleifend malesuada efficitur. Curabitur volutpat dui mi, ac imperdiet dolor tincidunt nec. Ut erat lectus, dictum sit amet lectus a, aliquet rutrum mauris. Etiam nec lectus hendrerit, consectetur risus viverra, iaculis orci. Phasellus eu nibh ut mi luctus auctor. Donec sit amet dolor in diam feugiat venenatis. </p>
+
+    <ul>
+      <p>icon1</p>
+      <p>icon2</p>
+      <p>icon3</p>
+    </ul>
+  </div>
+</footer>
+
 </body>
 </html>
