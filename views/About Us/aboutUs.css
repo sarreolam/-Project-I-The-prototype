@@ -1,11 +1,118 @@
-body{
+*{
+  padding: 0;
   margin: 0;
-  height: 1000px;
+}
+
+body{
+  background-color: black;  
 }
 .MiNavbar{
-  padding: 10px;
-  background-color: #ff9000
+  background-color: #3C486B;
 }
-.MiNavbar a {
+
+.container{
+  margin: 10vh;
+  margin-top: 10vh;
+  padding: 5vh;
+
+  
+}
+
+.about-1{
+  margin: 10px;
+  padding: 5px;
+}
+
+.about-1 h1{
+  text-align: center;
+  color: #F45050;
+  font-weight: bold;
+}
+
+.about-1 p{
+  text-align: center;
   color: black;
+  padding: 3px;
 }
+
+.about-item{
+  
+  background-color:#3C486B;
+  margin: 5vh;
+  margin-bottom: 0;
+  color: #fff;
+  
+  padding: 80px, 30px;
+  box-shadow: 0 0 9px rgba(0, 0, 0 .16);
+  padding: 15px;
+}
+
+.about-item i{
+  font-size: 43px;
+  margin: 0;
+}
+
+.about-item h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.about-item hr{
+  width: 46px;
+  height: 3px;
+  background-color: #fff;
+  color: black  ;
+  margin: 0 auto;
+  border: none; 
+}
+
+.about-item p{
+  margin-top: 20px  ;
+}
+.about-item:hover{
+  background-color:  #fff;
+  color: black  ;
+  border: 1px solid #ccc;
+}
+.about-item:hover i, .about-item:hover h3, .about-item:hover p{
+  color: #fff;
+  color: black  ;
+  
+}
+
+
+#footer {
+  padding: 4em 0 2em 0;
+  background-color: #3C486B;
+  text-align: center;
+  color:#F0F0F0;
+}
+
+  #footer .inner {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+    @media screen and (max-width: 980px) {
+
+      #footer .inner {
+        width: 75%;
+      }
+
+    }
+
+    @media screen and (max-width: 480px) {
+
+      #footer .inner {
+        width: 90%;
+      }
+
+    }
+
+  @media screen and (max-width: 736px) {
+
+    #footer {
+      padding: 3em 0 1em 0;
+    }
+
+  }

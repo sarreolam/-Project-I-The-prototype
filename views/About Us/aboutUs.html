@@ -13,15 +13,97 @@
 <body>  
 
 
-  <div class="MiNavbar">
-    <nav class="nav nav-pills flex-column flex-sm-row text-center">
-      <a class="flex-sm-fill text-sm-center nav-link" href="../Home/index.html"><img src="" alt="Logo"/></a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="../LogIn/login.html">Log in</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="../Home/index.html">Home</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="../Courses/courses.html">Course</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="../Clases/clases.html">Clases</a>
-      <a class="flex-sm-fill text-sm-center nav-link active" href="../About Us/aboutUs.html">About us</a>
-    </nav>
+  <nav class="navbar navbar-dark navbar-expand-md fixed-top MiNavbar">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="../Home/index.html">Nuestro nombre</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Nuestro nombre</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link"  href="../Sing in/singin.html">Sing in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"  href="../LogIn/login.html">Log in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Home/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="../Courses/courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="../Clases/clases.html">Clases</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " href="../About Us/aboutUs.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class=" container">
+    <section id="about">
+      <div class="about-1">
+        <h1>ABOUT US</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos nobis quo, labore eligendi reprehenderit eaque esse laudantium, maxime ratione vitae id, est dolores recusandae blanditiis quasi odio ducimus minima expedita.</p>
+      </div>
+
+      <div id="about-2">
+        <div class="content-box-lg">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="about-item text-center">
+                  <i class="con1"></i>
+                  <h3>MISSION</h3>
+                  <hr>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque, possimus laborum at iste culpa tempora impedit doloribus, accusamus hic dolores. Sapiente, quis molestias non sequi dolor dolore adipisci totam!</p>
+                </div>
+
+              </div>
+
+              <div class="col-md-4">
+                <div class="about-item text-center">
+                  <i class="con1"></i>
+                  <h3>VISSION</h3>
+                  <hr>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque, possimus laborum at iste culpa tempora impedit doloribus, accusamus hic dolores. Sapiente, quis molestias non sequi dolor dolore adipisci totam!</p>
+                </div>
+
+              </div>
+
+              <div class="col-md-4">
+                <div class="about-item text-center">
+                  <i class="con1"></i>
+                  <h3>ACHIEVEMENTS</h3>
+                  <hr>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque, possimus laborum at iste culpa tempora impedit doloribus, accusamus hic dolores. Sapiente, quis molestias non sequi dolor dolore adipisci totam!</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
   </div>
+
+  <footer id="footer">
+    <div class="inner">
+      <p>Copyright &copy; 2023 All rights reserved by Lorem Ipsum</p>
+    </div>
+   
+  </footer>
 </body>
 </html>
