@@ -4,25 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Courses</title>
-  <link rel="stylesheet" href="css/courses.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="courses.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </head>
 <body>  
 
+  <nav class="navbar navbar-dark navbar-expand-md fixed-top MiNavbar">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="../Home/index.html">Nuestro nombre</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Nuestro nombre</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link"  href="../Sing in/singin.html">Sing in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="../LogIn/login.html">Log in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Home/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../Courses/courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="../Clases/clases.html">Clases</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  " href="../About Us/aboutUs.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-  <div class="MiNavbar">
-    <nav class="nav nav-pills flex-column flex-sm-row text-center">
-      <a class="flex-sm-fill text-sm-center nav-link" href="../Home/index.html"><img src="" alt="Logo"/></a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="../LogIn/login.html">Log in</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="../Home/index.html">Home</a>
-      <a class="flex-sm-fill text-sm-center nav-link active" href="../Courses/courses.html">Course</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="../Clases/clases.html">Clases</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="../About Us/aboutUs.html">About us</a>
-    </nav>
-  </div>
 
   <div class="cuerpo">
 
@@ -38,7 +63,7 @@
           <div class="card-body">
             <h5 class="card-title">MATHEMATICS</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="math/mathContent.html"><button type="button" class="btn btn-outline-primary btn-lg">MATH</button></a>
+            <a href="./math/mathContent.html"><button type="button" class="btn btn-outline-secondary btn-lg">MATHEMATICS</button></a>
             
           </div>
         </div>
@@ -49,7 +74,7 @@
           <div class="card-body">
             <h5 class="card-title">HISTORY</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="history/histContent.html"> <button type="button" class="btn btn-outline-secondary btn-lg">HISTORY</button></a>
+            <a href="./history/histContent.html"><button type="button" class="btn btn-outline-secondary btn-lg">HISTORY</button></a>
             
           </div>
         </div>
@@ -60,7 +85,7 @@
           <div class="card-body">
             <h5 class="card-title">ENGINEERING</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="engineering/engContent.html"><button type="button" class="btn btn-outline-success btn-lg">ENGINEERING</button></a>
+            <a href="./engineering/engContent.html"><button type="button" class="btn btn-outline-secondary btn-lg">ENGINEERING</button></a>
             
           </div>
         </div>
@@ -76,7 +101,8 @@
           <div class="card-body">
             <h5 class="card-title">ARTS</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="arts/artsContent.html"><button type="button" class="btn btn-outline-danger btn-lg">ARTS</button></a> 
+            <a href="./arts/artsContent.html"><button type="button" class="btn btn-outline-secondary btn-lg">ARTS</button></a>
+            
           </div>
         </div>
       </div>
@@ -86,7 +112,7 @@
           <div class="card-body">
             <h5 class="card-title">LANGUAGES</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="languages/languagesContent.html"> <button type="button" class="btn btn-outline-warning btn-lg">LANGUAGES</button></a>
+            <a href="./languages/languagesContent.html"><button type="button" class="btn btn-outline-secondary btn-lg">LANGUAGES</button></a>
             
           </div>
         </div>
@@ -97,7 +123,7 @@
           <div class="card-body">
             <h5 class="card-title">FINANCES</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="finances/fianaces.html"><button type="button" class="btn btn-outline-info btn-lg">FINANCES</button></a>
+            <a href="./finances/fianaces.html"><button type="button" class="btn btn-outline-secondary btn-lg">FINANCES</button></a>
             
           </div>
         </div>
@@ -112,9 +138,10 @@
         <div class="card" style="width: 18rem; position:relative; margin-left:170px; margin-top: 20px;">
           <img src="/images/buisness.png" class="card-img-top" alt="BUISNESS_IMAGE">
           <div class="card-body">
-            <h5 class="card-title">BUSINESS</h5>
+            <h5 class="card-title">BUISNESS</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="business/busiContent.html"><button type="button" class="btn btn-outline-dark btn-lg">BUSINESS</button></a>    
+            <a href="./business/busiContent.html"><button type="button" class="btn btn-outline-secondary btn-lg">BUSINESS</button></a>
+            
           </div>
         </div>
       </div>
@@ -124,12 +151,10 @@
           <div class="card-body">
             <h5 class="card-title">SCIENCE</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="sciences/sciContent.html"> <button type="button" class="btn btn-outline-success btn-lg">SCIENCE</button></a>
-            
+            <a href="./sciences/sciContent.html"><button type="button" class="btn btn-outline-secondary btn-lg">SCIENCE</button></a>
           </div>
         </div>
       </div>
-      
       
 
     </div>

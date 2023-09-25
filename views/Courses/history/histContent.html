@@ -13,16 +13,46 @@
 <body>  
 
 
-  <div class="MiNavbar">
-    <nav class="nav nav-pills flex-column flex-sm-row text-center">
-      <a class="flex-sm-fill text-sm-center nav-link" href="/views/Home/index.html"><img src="" alt="Logo"/></a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="/views/LogIn/login.html">Log in</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="/views/Home/index.html">Home</a>
-      <a class="flex-sm-fill text-sm-center nav-link active" href="../courses.html">Course</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="/views/Clases/clases.html">Clases</a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="/views/About Us/aboutUs.html">About us</a>
-    </nav>
-  </div>
+
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top MiNavbar">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="../Home/index.html">Nuestro nombre</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Nuestro nombre</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link"  href="/views/Sing in/singin.html">Sing in</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active"  href="/views/LogIn/login.html">Log in</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/views/Home/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../courses.html">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="/views/Clases/clases.html">Clases</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  " href="/views/About Us/aboutUs.html">About Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+ 
 
   <div class="cuerpo">
     <div>
@@ -30,14 +60,7 @@
       </div>
 
     <div class="container">
-        <div class="weekly"> 
-            <div class="week">history-class course (beta)</div>
-            <a class="week" href="../history/weekContent/w1.html"> week 1</a> 
-            <a class="week" href="../history/weekContent/w1.html">week 2</a>
-            <a class="week" href="../history/weekContent/w1.html">week 3</a>
-            <a class="week">comming soon</a>
-            
-          </div>
+       
         
           <div class="infoDump">
             <div class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet a dolore numquam praesentium tenetur nisi laborum cumque, modi eaque ex dolorum laboriosam! Perspiciatis mollitia repellat distinctio, quo sapiente deserunt culpa!</div>

@@ -1,34 +1,22 @@
+
 .MiNavbar{
   background-color: #3C486B;
 }
 
-.top{
+.cuerpo{
   background-color: #F0F0F0;
   margin-top: 3rem;
 }
 
-#notas{
-  position: relative; 
-  margin-left: 80px;
+.images{
+  margin-top: 20px;
 }
-
-#button{
-  position: relative; 
-  margin-left: 80px;
-}
-
-#notas{
-  position: relative; 
-  margin-left: 80px;
-}
-
 
 #footer {
   padding: 4em 0 2em 0;
   background-color: #3C486B;
   text-align: center;
   color:#F0F0F0;
-  margin-top: 30px;
 }
 
 #footer .inner {
