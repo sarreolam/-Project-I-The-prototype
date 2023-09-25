@@ -8,6 +8,8 @@
 
 .cuerpo{
   background-color: #F0F0F0;
+  margin-top: 3rem;
+  padding-top: 3rem;
 
 }
 
@@ -17,7 +19,7 @@
 }
 
 .imgStudy {
-  width :100%;
+  width : auto;
 }
 
 .giphy-embed{
@@ -33,6 +35,15 @@
   background-color: #3C486B;
   text-align: center;
   color:#F0F0F0;
+}
+.ONL-div h1 {
+  color: #F9d949;
+  font-size: 95px;
+
+}
+.ONL-div iframe {
+  width: 80%;
+
 }
 
   #footer .inner {
