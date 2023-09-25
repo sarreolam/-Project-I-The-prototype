@@ -3,11 +3,16 @@
 }
 .cuerpo{
   background-color: #F0F0F0;
+  margin-top: 3rem;
+  /* padding-top: 2rem; */
 
 
 }
 
-
+.contact{
+  padding-bottom: 50px;
+  /* background-color: #3C486B; */
+}
 .imgAboutUs{
   width:100%;
   margin-top:50px;
