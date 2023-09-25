@@ -6,10 +6,24 @@
 .cuerpo{
   background-color: #F0F0F0;
   margin-top: 3rem;
+<<<<<<< HEAD
+=======
+  padding-top: 3rem;
+  width: 100%;
+  height: 100%;
+>>>>>>> origin/main
 }
 
 .images{
   margin-top: 20px;
+}
+.card{
+  width: 18rem;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  
 }
 
 #footer {
@@ -17,6 +31,7 @@
   background-color: #3C486B;
   text-align: center;
   color:#F0F0F0;
+  margin-top: 20px;
 }
 
 #footer .inner {
@@ -39,6 +54,7 @@
     }
 
   }
+<<<<<<< HEAD
 
 @media screen and (max-width: 736px) {
 
@@ -47,3 +63,14 @@
   }
 
 }
+=======
+
+@media screen and (max-width: 736px) {
+
+  #footer {
+    padding: 3em 0 1em 0;
+  }
+
+}
+
+>>>>>>> origin/main

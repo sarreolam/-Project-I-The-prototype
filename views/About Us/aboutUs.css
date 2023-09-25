@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
   padding: 0;
   margin: 0;
@@ -82,6 +83,28 @@
 }
 
 
+=======
+.MiNavbar{
+  background-color: #3C486B;
+}
+.cuerpo{
+  background-color: #F0F0F0;
+  margin-top: 3rem;
+  /* padding-top: 2rem; */
+
+
+}
+
+.contact{
+  padding-bottom: 50px;
+  /* background-color: #3C486B; */
+}
+.imgAboutUs{
+  width:100%;
+  margin-top:50px;
+}
+
+>>>>>>> origin/main
 #footer {
   padding: 4em 0 2em 0;
   background-color: #3C486B;
@@ -94,26 +117,60 @@
     margin: 0 auto;
   }
 
+<<<<<<< HEAD
     @media screen and (max-width: 980px) {
 
+=======
+
+    @media screen and (max-width: 980px) {
+
+
+>>>>>>> origin/main
       #footer .inner {
         width: 75%;
       }
 
+<<<<<<< HEAD
     }
 
     @media screen and (max-width: 480px) {
 
+=======
+
+    }
+
+
+    @media screen and (max-width: 480px) {
+
+
+>>>>>>> origin/main
       #footer .inner {
         width: 90%;
       }
 
+<<<<<<< HEAD
     }
 
   @media screen and (max-width: 736px) {
 
+=======
+
+    }
+
+
+  @media screen and (max-width: 736px) {
+
+
+>>>>>>> origin/main
     #footer {
       padding: 3em 0 1em 0;
     }
 
+<<<<<<< HEAD
   }
+=======
+
+  }
+
+
+>>>>>>> origin/main
