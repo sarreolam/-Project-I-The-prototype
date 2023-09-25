@@ -9,3 +9,54 @@ body{
   .MiNavbar a {
     color: white;
   }
+
+  .cuerpo{
+    background-color: #F0F0F0;
+    margin: 0;
+    height: 1000px;
+  }
+  
+
+
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weekly {
+    flex: 1; /* Ocupa el espacio disponible */
+    padding: 10px;
+   
+}
+
+.week{
+    display: block; 
+    border: 1px solid #ccc;
+    background-color: white;
+
+    padding: 10px;
+    border-radius: 5px;
+    
+  }
+
+.infoDump {
+    flex: 0 0 30%; /* Anchura fija del 30% sin crecimiento ni reducción */
+    margin-left: 5vh;
+    padding: 10px;
+}
+.info{
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: white;
+}
+p{
+  border: 0;
+  padding: 10px;
+}
+
+h2{
+    padding: 5vh;
+    width: fit-content;
+}
+  
