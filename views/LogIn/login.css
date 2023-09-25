@@ -2,11 +2,14 @@
   background-color: #3C486B;
 }
 
-.log-in-Top-div{
+.top-div  {
+  background-color: #F0F0F0;
+  margin-top: 3rem;
   width: 100%;
   height: 100%;
-  background-color: #F0F0F0;
+  padding-top: 3rem;
 }
+
 
 .input-div{
   padding: 25px;
@@ -15,12 +18,42 @@
 .log-in-inputs{
   gap: 10px;
 }
-.log-in-inputs input{
+.log-in-inputs>div> input{
   width: 60%;
+  border-radius: 10px;
+  border: 0;
+  padding: 2px;
+  transition:  background-color 2s ;
 }
-.sing-in-remember-me{
-  font-size: large;
+.log-in-inputs>div> input:focus,
+.log-in-inputs>div> input:hover{
+  background-color: #fffbb0;
 }
+.log-in-inputs>div> input::placeholder{
+  padding-left: 1rem;
+}
+.log-in-inputs button{
+  width: 40%;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #667bb7;
+  margin-bottom: 20px;
+  border: 0;
+  transition:  background-color 1s;
+
+}
+.log-in-inputs button:hover{
+  background-color: #8ab4f8;
+
+}
+
+.remember-me-div{
+  padding: 10px;
+}
+.remember-me-div>div{
+  margin-top: 10px;
+}
+
 
 #footer {
   padding: 4em 0 2em 0;
