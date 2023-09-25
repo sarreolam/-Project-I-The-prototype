@@ -6,10 +6,21 @@
 .cuerpo{
   background-color: #F0F0F0;
   margin-top: 3rem;
+  padding-top: 3rem;
+  width: 100%;
+  height: 100%;
 }
 
 .images{
   margin-top: 20px;
+}
+.card{
+  width: 18rem;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  
 }
 
 #footer {
@@ -17,6 +28,7 @@
   background-color: #3C486B;
   text-align: center;
   color:#F0F0F0;
+  margin-top: 20px;
 }
 
 #footer .inner {
