@@ -1,90 +1,59 @@
-.MiNavbar{
-  background-color: #3C486B;
+body {
+    
+  background-color: #f2f2f2;
 }
 
-.cuerpo{
-  background-color: #F0F0F0;
-  margin-top: 3rem;
-}
-
-
-
-
-
-
-
-
-h1{
-  padding: 10vh;
-  color: #3C486B;
-}
-
-
-
-
-.container {
-  display: flex;
-  justify-content: space-between;
-}
-
-
-.weekly {
-  flex: 1; /* Ocupa el espacio disponible */
- 
-  padding: 10px;
- 
-}
-
-
-.infoDump {
-  flex: 0 0 30%; /* Anchura fija del 30% sin crecimiento ni reducción */
-  margin-left: 5vh;
-  padding: 10px;
-}
-.info{
-border: 1px solid #ccc;
-padding: 10px;
-
-
-}
-p{
-border: 0;
-padding: 10px;
-}
-
-
-h2{
-  padding: 5vh;
-  width: fit-content;
-}
-
-.video-container{
-  display: flex; /* Utilizamos flexbox para colocar elementos en línea */
-  align-items: center; /* Alineamos verticalmente al centro */
-  justify-content: space-between;
-  margin-left: 15vh;
-  margin-right: 30vh;
- 
- 
-}
-
-
-.quizz-container{
-  display: inline-block;
-  text-align: center;
-  margin-left: 15vh;
- 
- 
-}
-
-
-iframe{
-  margin-right: 20vh;
-}
-
-
-button{
-  text-align: center;
+.quiz {
+  background-color: #fff;
+  border: 1px solid #ccc;
   border-radius: 5px;
- 
+  padding: 20px;
+  width: 50%;
+  margin: 20px auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.question {
+  margin: 20px 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.progress {
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  
+  cursor: pointer;
 }
