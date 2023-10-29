@@ -1,78 +1,91 @@
 .MiNavbar{
-    background-color: #3C486B;
-  }
-  
-  .cuerpo{
-    background-color: #F0F0F0;
-    margin-top: 3rem;
-  }
-  
 
-  
+  background-color: #3C486B;
+}
+
+.cuerpo{
+  background-color: #F0F0F0;
+  margin-top: 3rem;
+}
+
+
+
+
+
+
 
 
 h1{
-    padding: 10vh;
-    color: #3C486B;
+  padding: 10vh;
+  color: #3C486B;
 }
+
+
 
 
 .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
+
 
 .weekly {
-    flex: 1; /* Ocupa el espacio disponible */
-   
-    padding: 10px;
-   
+  flex: 1; /* Ocupa el espacio disponible */
+ 
+  padding: 10px;
+ 
 }
 
+
 .infoDump {
-    flex: 0 0 30%; /* Anchura fija del 30% sin crecimiento ni reducción */
-    margin-left: 5vh;
-    padding: 10px;
+  flex: 0 0 30%; /* Anchura fija del 30% sin crecimiento ni reducción */
+  margin-left: 5vh;
+  padding: 10px;
 }
 .info{
-  border: 1px solid #ccc;
-  padding: 10px;
+border: 1px solid #ccc;
+padding: 10px;
+
 
 }
 p{
-  border: 0;
-  padding: 10px;
+border: 0;
+padding: 10px;
 }
+
 
 h2{
-    padding: 5vh;
-    width: fit-content;
+  padding: 5vh;
+  width: fit-content;
 }
-  
+
 .video-container{
-    display: flex; /* Utilizamos flexbox para colocar elementos en línea */
-    align-items: center; /* Alineamos verticalmente al centro */
-    justify-content: space-between;
-    margin-left: 15vh;
-    margin-right: 30vh;
-    
-    
-  }
+  display: flex; /* Utilizamos flexbox para colocar elementos en línea */
+  align-items: center; /* Alineamos verticalmente al centro */
+  justify-content: space-between;
+  margin-left: 15vh;
+  margin-right: 30vh;
+ 
+ 
+}
 
-  .quizz-container{
-    display: inline-block;
-    text-align: center;
-    margin-left: 15vh;
-    
-   
-  }
 
-  iframe{
-    margin-right: 20vh;
-  }
+.quizz-container{
+  display: inline-block;
+  text-align: center;
+  margin-left: 15vh;
+ 
+ 
+}
 
-  button{
-    text-align: center;
-    border-radius: 5px;
-    
-  }
+
+iframe{
+  margin-right: 20vh;
+}
+
+
+button{
+  text-align: center;
+  border-radius: 5px;
+ 
+}
