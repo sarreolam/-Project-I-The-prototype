@@ -54,6 +54,7 @@
   padding-left: 1rem;
 }
 .log-in-inputs button{
+  margin-top: 20px;
   width: 40%;
   height: 30px;
   border-radius: 10px;
