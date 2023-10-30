@@ -90,6 +90,7 @@ app.get('/home',(req,res)=>{
 app.get('/courses',(req,res)=>{
   res.render('pages/courses', {courses})
 })
+
 app.get('/courses/:id',(req,res)=>{
   const id = req.params.id || null
   res.render('pages/single-course', {id})
@@ -97,6 +98,10 @@ app.get('/courses/:id',(req,res)=>{
 
 app.get('/courses/quiz/:id',(req,res)=>{
   res.render('pages/quiz')
+})
+
+app.get('/about-us',(req,res)=>{
+  res.render('pages/about-us', {courses})
 })
 
 app.listen(port, () => {
