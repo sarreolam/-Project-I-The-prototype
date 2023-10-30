@@ -157,10 +157,56 @@ padding: 10px;
 .single-course-button{
   text-align: center;
   border-radius: 5px;
- 
-}
-  
-  
+}  
 /*///////////////////////////////////////////////////////////////////////*/
 
+/*quiz*/
+.quiz {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+  margin: 20px auto;
+  margin-top: 5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+} 
+.quiz-h1 {
+  font-size: 24px;
+}
+.question {
+  margin: 20px 0;
+}
+.quiz p{
+  font-size: 16px;
+}
 
+.quiz label {
+  display: block;
+  margin: 10px 0;
+}
+.quiz input[type="radio"] {
+  margin-right: 10px;
+}
+.progress {
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.progress-bar {
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+.quiz button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  
+  cursor: pointer;
+}
+/*///////////////////////////////////////////*/

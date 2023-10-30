@@ -28,8 +28,12 @@
       src="https://www.youtube.com/embed/tgbNymZ7vqY">
       </iframe>
       <div class="quizz-container">
-          <h3>Make a quiz </h3>
-      <button class="single-course-button" disabled><a href="../math/quizz.html">quizz</a></button>
+        <h3>Make a quiz </h3>
+        <%if(id){%>
+          <button class="single-course-button" disabled><a href="/courses/quiz/<%=id%>">quizz</a></button>
+          <%}else{%>
+            <button class="single-course-button" disabled>quizz</button>
+        <%}%>
       </div>
 
 

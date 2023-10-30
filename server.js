@@ -74,25 +74,29 @@ app.set('view engine', 'ejs');
 
 
 app.get('/', (req, res)=> {
-  res.redirect('/log-in')
+  res.redirect('/home')
 });
 
 app.get('/log-in', (req, res)=>{
-  res.render('pages/index')
+  res.render('pages/log-in')
 })
 app.get('/sing-in', (req, res)=>{
   res.render('pages/sing-in')
 })
 app.get('/home',(req,res)=>{
-  res.render('pages/home')
+  res.render('pages/index')
 })
 
 app.get('/courses',(req,res)=>{
   res.render('pages/courses', {courses})
 })
 app.get('/courses/:id',(req,res)=>{
-  const id = req.params.id
-  res.render('pages/single-course')
+  const id = req.params.id || null
+  res.render('pages/single-course', {id})
+})
+
+app.get('/courses/quiz/:id',(req,res)=>{
+  res.render('pages/quiz')
 })
 
 app.listen(port, () => {
