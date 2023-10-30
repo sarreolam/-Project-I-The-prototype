@@ -1,0 +1,34 @@
+<%- include('../partials/header');%>
+
+<div class="top-div">
+
+  <div>
+    <h1 style="text-align: center; color: #F45050">What do you want to learn today?</h1>
+  </div>
+
+<div class="container-fluid text-center">
+  <div class="row justify-content-center">
+    <% for(var i=0; i<courses.subjects.length; i++) {%>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img src=<%=courses.subjects[i].image%> class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><%=courses.subjects[i].name%></h5>
+            <p class="card-text"><%=courses.subjects[i].text%></p>
+            <%if (courses.subjects[i].ready) {%>
+              <a href="/courses/<%=courses.subjects[i].id%>"><button type="button" class="btn btn-outline-primary btn-lg">
+                <%=courses.subjects[i].name%>
+              </button></a>
+              <%} else{%>
+                <button type="button" class="btn btn-outline-secondary btn-lg" disabled>
+                Coming Soon
+              </button>
+                <%}%>
+          </div>
+        </div>
+      </div>
+    <%}%>
+  </div>
+</div>
+</div>
+<%- include('../partials/footer');%>

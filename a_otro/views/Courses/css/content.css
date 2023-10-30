@@ -14,10 +14,6 @@
 
 
 
-h1{
-  padding: 10vh;
-  color: #3C486B;
-}
 
 
 
@@ -47,16 +43,7 @@ padding: 10px;
 
 
 }
-p{
-border: 0;
-padding: 10px;
-}
 
-
-h2{
-  padding: 5vh;
-  width: fit-content;
-}
 
 .video-container{
   display: flex; /* Utilizamos flexbox para colocar elementos en línea */
@@ -78,6 +65,23 @@ h2{
 }
 
 
+
+
+h1{
+  padding: 10vh;
+  color: #3C486B;
+}
+
+p{
+  border: 0;
+  padding: 10px;
+  }
+  
+  
+  h2{
+    padding: 5vh;
+    width: fit-content;
+  }
 iframe{
   margin-right: 20vh;
 }

@@ -11,7 +11,7 @@
 }
 
 
-.input-div{
+.log-in-input-div{
   padding: 25px;
 }
 
@@ -47,10 +47,10 @@
 
 }
 
-.remember-me-div{
+.log-in-remember-me-div{
   padding: 10px;
 }
-.remember-me-div>div{
+.log-in-remember-me-div>div{
   margin-top: 10px;
 }
 
