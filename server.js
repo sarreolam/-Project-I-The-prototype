@@ -9,56 +9,56 @@ const courses = {
     {
       id :0,
       name: "Mathematics",
-      text: `Some quick example text to build on the card title and make up the bulk of the card's content.`,
+      text: `Mathematics is the study of numbers, quantities, and shapes. It provides a foundation for solving a wide range of real-world problems and is crucial in fields like science, engineering, and finance.`,
       ready: 1,
       image: '/images/math.png'
     },
     {
       id :1,
       name: "History",
-      text: `Some quick example text to build on the card title and make up the bulk of the card's content.`,
+      text: `History is the record of past events and the study of human societies, cultures, and their evolution over time. It helps us understand the present by examining the past.`,
       ready: 0,
       image: '/images/history.png'
     },
     {
       id :2,
       name: "Engineering",
-      text: `Some quick example text to build on the card title and make up the bulk of the card's content.`,
+      text: `Engineering is the application of scientific and mathematical principles to design, create, and improve technologies and systems, ranging from bridges to computer software.`,
       ready: 0,
       image: '/images/engineer.png'
     },
     {
       id :3,
       name: "Arts",
-      text: `Some quick example text to build on the card title and make up the bulk of the card's content.`,
+      text: `The arts encompass a wide range of creative expressions, including visual arts, performing arts, literature, and music. They reflect human creativity and culture.`,
       ready: 0,
       image: '/images/arts.png'
     },
     {
       id :4,
       name: "Languages",
-      text: `Some quick example text to build on the card title and make up the bulk of the card's content.`,
+      text: `Languages are systems of communication used by humans. They play a vital role in cultural identity and allow people to connect and share ideas.`,
       ready: 0,
       image: '/images/languages.png'
     },
     {
       id :5,
       name: "Finances",
-      text: `Some quick example text to build on the card title and make up the bulk of the card's content.`,
+      text: `Finances involve managing money and resources. This includes budgeting, investing, saving, and making financial decisions to achieve personal and economic goals.`,
       ready: 0,
       image: '/images/finances.png'
     },
     {
       id :6,
       name: "Buisness",
-      text: `Some quick example text to build on the card title and make up the bulk of the card's content.`,
+      text: `Business encompasses the activities of buying, selling, and producing goods and services. It involves entrepreneurship, management, marketing, and various aspects of commerce.`,
       ready: 0,
       image: '/images/buisness.png'
     },
     {
       id :7,
       name: "Science",
-      text: `Some quick example text to build on the card title and make up the bulk of the card's content.`,
+      text: `Science is the systematic study of the natural world and the processes that govern it. It seeks to understand the fundamental laws and principles governing our universe.`,
       ready: 0,
       image: '/images/science.png'
     },
