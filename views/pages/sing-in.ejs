@@ -3,28 +3,47 @@
 
   <div class="container-fluid text-center log-in-input-div">
     <div class="row justify-content-center log-in-inputs">
+
       <div class="col-6 ">
         <h3>Sing in</h3>
       </div>
-      <div class="col-12 col-md-8 col-lg-6">
-        <input type="email" placeholder="Email" />
+      <div class="col-12 form-container">
+
+        <form action="/sing-in" method="post" class="log-in-form">
+          
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 ">
+              <input type="email" name="email" placeholder="Email" />
+            </div>
+            
+            <div class="col-12 col-md-8 ">
+              <input type="" name="user" placeholder="User" />
+            </div>
+            
+            <div class="col-12 col-md-8 ">
+              <input type="password" name="pass" placeholder="Password"/>
+            </div>
+            
+            <div class="col-12 col-md-8">
+              <input type="password" name="copass" placeholder="Confirm password"/>
+            </div>
+            
+            <div class="col-12 col-md-8">
+              <button type="submit">Sing in</button>
+            </div>  
+          </div>
+        </form>
+        <%if (locals.error){%>
+          <div class="log-in-error"><%=error%></div>
+        <%}%>
       </div>
-      <div class="col-12 col-md-8 col-lg-6">
-        <input type="" placeholder="User" />
-      </div>
-      <div class="col-12 col-md-8 col-lg-6">
-        <input type="password" placeholder="Password"/>
-      </div>
-      <div class="col-12 col-md-8 col-lg-6">
-        <input type="password" placeholder="Confirm password"/>
-      </div>
-      
-      <div class="col-12 col-md-8">
-        <button>Sing in</button>
-      </div>
-    </div>  
-  </div>
+    </div> 
+        
+
+
+  </div>  
 </div>
+
 
 
 

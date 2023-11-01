@@ -1,7 +1,11 @@
 <%- include('../partials/header');%>
 
 <div class="top-div">
-
+  <%if(locals.name){%>
+    <div>
+      <h2 style="margin-left: 40px;">Hello, <%=name%></h2>
+    </div>
+  <%}%>
   <div>
     <h1 style="text-align: center; color: #F45050">What do you want to learn today?</h1>
   </div>

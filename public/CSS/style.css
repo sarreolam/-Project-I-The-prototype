@@ -36,21 +36,38 @@
   padding-top: 3rem;
 }
 
-/*Log in page*/
+/*Log in page///////////////*/
 .log-in-input-div{
   padding: 25px;
 }
-.log-in-inputs{
+/* .log-in-inputs{
+  margin: auto;
   gap: 10px;
+} */
+.log-in-form{
+  /* display: flex; */
+  /* justify-content: center;
+  margin: auto; */
+  width: 100%;
+
 }
-.log-in-inputs>div> input{
+.form-container{
+  display: grid;
+  place-items: center;
+  /* min-height: 100vh; */
+}
+.log-in-form div{
+  /* background-color: red; */
+  margin: 5px 0px;
+}
+.log-in-form div input{
   width: 60%;
   border-radius: 10px;
   border: 0;
   padding: 2px;
   transition:  background-color 2s ;
 }
-.log-in-inputs>div> input::placeholder{
+.log-in-form div input::placeholder{
   padding-left: 1rem;
 }
 .log-in-inputs button{
@@ -72,6 +89,11 @@
 .log-in-remember-me-div>div{
   margin-top: 10px;
 }
+.log-in-error{
+  color: red;
+}
+
+
 /*///////////////////////////////////////////////////////////////////////*/
 
 /*IMAGES*/
